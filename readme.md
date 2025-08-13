@@ -24,3 +24,11 @@ This repository will serve as the primary source of resources and problems/tasks
 
 6. Click the Sync Changes Button
 ---
+
+## Submission Instructions
+
+- You are expected to know how to use git and go through the relevant resources if there is a need. 
+- All submissions should be in a `firstname_lastname/` directory.
+- Inside your folder, include all relevant files (e.g., code, documentation, etc.).
+- PR Name: `firstname_lastname`
+- Make sure to follow exactly this structure in your PR
