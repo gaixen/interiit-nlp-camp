@@ -1,0 +1,14 @@
+requests
+beautifulsoup4
+google-generativeai
+pydantic
+langchain
+langchain-huggingface
+langchain-community
+langchain-core
+python-dotenv
+ddgs
+langchain-tavily
+google-search-results
+sentence-transformers
+faiss-cpu
