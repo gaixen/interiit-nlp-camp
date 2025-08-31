@@ -1,0 +1,7 @@
+aiohttp
+beautifulsoup4
+trafilatura
+numpy
+sentence-transformers
+faiss-cpu
+requests
