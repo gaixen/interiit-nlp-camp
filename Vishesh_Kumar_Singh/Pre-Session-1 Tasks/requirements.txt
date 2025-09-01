@@ -1,0 +1,10 @@
+tavily-python
+requests
+beautifulsoup4
+langchain
+langchain-core
+langchain[google-genai]
+langchain-community
+langchain-huggingface
+faiss-cpu
+langgraph>=0.2.27
