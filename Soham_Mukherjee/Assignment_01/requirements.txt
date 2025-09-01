@@ -1,0 +1,11 @@
+### conda create -n myenv python=3.13 -y 
+google-generative-ai
+langchain
+beautifulsoup4
+requests
+faiss-cpu
+numpy
+sentence-transformers
+duckduckgo-search
+selenium
+db-sqlite3
