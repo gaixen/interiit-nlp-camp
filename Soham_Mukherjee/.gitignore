@@ -1,0 +1,8 @@
+.env*
+.venv/
+__pycache__
+.python-version
+uv.lock
+Task-02/__pycache__
+google-agentic-suite/config/sentiment-insights-end-to-end-6f7aaeee74d1.json
+google-agentic-suite/config/auth.json
