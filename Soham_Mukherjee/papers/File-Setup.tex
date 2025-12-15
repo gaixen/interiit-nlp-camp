@@ -1,0 +1,203 @@
+
+
+% \usepackage{longtable}
+\usepackage{xurl}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{caption}
+\geometry{
+	paper=a4paper, % Paper size
+	top=2.5cm, % Top margin
+	bottom=2.5cm, % Bottom margin
+	left=2.5cm, % Left margin
+	right=2.4cm, % Right margin
+	headheight=0.75cm, % Header height
+	footskip=1.5cm, % Space from the bottom margin to the baseline of the footer
+	headsep=0.75cm, % Space from the top margin to the baseline of the header
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\usepackage{gensymb}
+
+
+\usepackage{blindtext}
+%-------------------------------- Character encoding ----------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{adjustbox}
+%----------------------------- Mathematics packages from AMS ---------------
+
+\usepackage{amsmath, amsfonts, amsthm, amssymb}
+\usepackage{braket, nicefrac}
+
+% ----------- International System of Units
+\usepackage{siunitx}
+
+%------------------------------ Lists / numbers -------------------------
+\usepackage{enumitem, multicol}
+
+%------------------------------- Figure insertions --------------
+\usepackage{graphicx, float}  % Use option [H] to force the placement of a figure
+\usepackage{keystroke}
+\usepackage{pgfplots}\usepgfplotslibrary{units}\pgfplotsset{compat=1.16}
+
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Hyperlink References %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=blue,
+    %pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+%--------------------% Storage Path for images %-----------------%
+\graphicspath{{graphics/}{Graphics/}{./}}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead{MASSAT Framework : Financial Portfolio Playoff}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
+\usepackage{tabularx}
+% \usepackage{multicol}
+% \usepackage{graphicx}
+\usepackage{setspace}
+% \usepackage{multirow}
+\usepackage[]{mdframed}
+% % \input{File_Setup.tex}
+% \renewcommand\thesection{\arabic{section}}
+% \renewcommand\thesubsection{\thesection.\Alph{subsection}}
+% \renewcommand\thesubsubsection{\thesubsection.\Roman{subsubsection}}
+% \newcommand{\framedtext}[1]{%
+% \par%
+% \noindent\fbox{%
+%     \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{#1}%
+% }%
+% }
+% \setlist[itemize]{noitemsep}
+
+% \renewenvironment{abstract}{
+%     \centering
+%     \textbf{Abstract}
+%     \vspace{0.5cm}
+%     \par\itshape
+%     \begin{minipage}{0.7\linewidth}}{\end{minipage}
+%     \noindent\ignorespaces
+% }
+
+% \documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,babel,adjustbox,booktabs,multirow}
+
+% \usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{shapes.geometric, arrows, calc,automata,positioning,decorations,decorations.text}
+
+\usetikzlibrary{mindmap,snakes}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{svg}
+%\usepackage[
+
+\usetikzlibrary{trees}% <-- new
+
+
+
+\usepackage[T1]{fontenc}
+% \usepackage[utf8]{inputenc}
+
+% \usepackage[a4paper, total={6in, 8in}]{geometry}
+% 
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage{subfig}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{svg}
+%\usepackage[
+%style=numeric 
+%]{biblatex}
+\usepackage{textgreek}
+%\usepackage[numbers]{natbib}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+% \usepackage{graphicx}
+
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+
+\usepackage{ragged2e}
+\usepackage{fp}
+
+\usepackage{ifthen}
+
+\usetikzlibrary{shapes.geometric, arrows.meta, calc,automata,positioning,decorations,decorations.text}
+
+\usetikzlibrary{mindmap,snakes}
+
+\usepackage{multirow}
+
+% \usepackage{algorithm}
+% \usepackage{algorithmic}
+% \usepackage{graphicx}
+% \usepackage[english]{babel}
+\usepackage{array}
+\usepackage[export]{adjustbox}
+
+\graphicspath{{pictures/}}
+
+\def\ak#1{\textcolor{red}{(ak: #1)}}
+\def\mv#1{\textcolor{cyan}{(mv: #1)}}
+
+\usepackage{xcolor}
+
+\usepackage[colorlinks=true,
+    linkcolor=black,
+    linkbordercolor=red,
+    urlcolor=red!90!blue,
+    urlbordercolor=red,
+    ]{hyperref}
+
+
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{pifont}
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc}
+
+% \usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\tikzstyle{startstop} = [rectangle, rounded corners,align=center, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, align=center, draw=black, fill=blue!35]
+\tikzstyle{io_toko} = [trapezium, trapezium left angle=70, trapezium right angle=110, align=center, draw=black, fill=gray!45]
+\tikzstyle{process_output} = [rectangle, rounded corners, minimum width=3cm, draw=black,  align=center, fill= green!30]
+\tikzstyle{process} = [rectangle,rounded corners, minimum width=3cm, draw=black,  align=center, fill= yellow!30]
+\tikzstyle{process_new} = [rectangle,rounded corners, minimum width=3cm, draw=black,  align=center, fill= orange!30]
+\tikzstyle{process_inter} = [rectangle,rounded corners, minimum width=3cm, draw=black,  align=center, fill= gray!45]
+\tikzstyle{process_simi} = [rectangle,rounded corners, minimum width=3cm, draw=black,  align=center, fill= red!30]
+\tikzstyle{decision} = [diamond, aspect=1.5, align=center, draw=black, fill=red!30]
+\tikzstyle{model} = [circle,align=center, draw=black, fill= blue!35]
+\tikzstyle{arrow} = [thick,->,>=stealth]
